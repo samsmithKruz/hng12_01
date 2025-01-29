@@ -1,8 +1,8 @@
 # HNG12 Stage 0 Backend Task: Public API
 
-## Overview
+## Description
 
-This project is a public API developed as part of the **HNG12 Internship Stage 0 Backend Task**. The API provides the following information in JSON format:
+This is a public API developed for the **HNG12 Internship Stage 0 Backend Task**. It provides basic information in JSON format, including:
 
 - Registered email address: `samspike46@gmail.com`
 - Current datetime in ISO 8601 format (UTC)
@@ -11,9 +11,11 @@ This project is a public API developed as part of the **HNG12 Internship Stage 0
 ## API Documentation
 
 ### Endpoint
-- **GET** `https://space.otecfx.com`
+- **GET**: `https://space.otecfx.com`
 
-### Response Example (200 OK):
+### Request/Response Format
+- **Method**: `GET`
+- **Response (200 OK)**:
 ```json
 {
   "email": "samspike46@gmail.com",
@@ -21,22 +23,34 @@ This project is a public API developed as part of the **HNG12 Internship Stage 0
   "github_url": "https://github.com/samsmithkruz/hng12_01"
 }
 ```
-### Local Setup
-1. Clone the repository:
-``` bash
-git clone https://github.com/samsmithkruz/hng12_01.git
-```
-2. Navigate to the project directory:
-``` bash
-cd hng12_01
-```
-3. Start a local PHP server:
-``` bash
-php -S localhost:8000
-```
-4. Access the API locally at:
-``` bash
-http://localhost:8000
-```
+### Example Usage
+
+You can test the API using any of the following methods:
+
+1. **Browser**: Open the URL in a web browser:  
+   [https://space.otecfx.com](https://space.otecfx.com)
+
+2. **Postman**: Send a `GET` request to the endpoint.
+
+3. **cURL**: Run the following command in your terminal:
+   ```bash
+   curl https://space.otecfx.com
+   ```
 ## Deployment
-The API is deployed and publicly accessible at: ```https://space.otecfx.com```
+
+The API has been deployed to a publicly accessible endpoint.  
+
+- **URL**: [https://space.otecfx.com](https://space.otecfx.com)  
+- **Response Time**: Ensured to be under 500ms for optimal performance.  
+
+You can access the API directly through the link above.
+
+## Backlinks
+
+Explore HNG's hiring pages for developers:  
+- [Hire Python Developers](https://hng.tech/hire/python-developers)  
+- [Hire C# Developers](https://hng.tech/hire/csharp-developers)  
+- [Hire Go Developers](https://hng.tech/hire/golang-developers)  
+- [Hire PHP Developers](https://hng.tech/hire/php-developers)  
+- [Hire Java Developers](https://hng.tech/hire/java-developers)  
+- [Hire Node.js Developers](https://hng.tech/hire/nodejs-developers)  
