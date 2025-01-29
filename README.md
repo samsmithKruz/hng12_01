@@ -48,9 +48,4 @@ You can access the API directly through the link above.
 ## Backlinks
 
 Explore HNG's hiring pages for developers:  
-- [Hire Python Developers](https://hng.tech/hire/python-developers)  
-- [Hire C# Developers](https://hng.tech/hire/csharp-developers)  
-- [Hire Go Developers](https://hng.tech/hire/golang-developers)  
 - [Hire PHP Developers](https://hng.tech/hire/php-developers)  
-- [Hire Java Developers](https://hng.tech/hire/java-developers)  
-- [Hire Node.js Developers](https://hng.tech/hire/nodejs-developers)  
